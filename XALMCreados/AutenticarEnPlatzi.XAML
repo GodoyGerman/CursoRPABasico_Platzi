@@ -7,7 +7,7 @@
   <this:AutenticarEnPlatzi.in_Browser>
     <InArgument x:TypeArguments="ui:Browser" />
   </this:AutenticarEnPlatzi.in_Browser>
-  <sap:VirtualizedContainerService.HintSize>1680,1187</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1040,856</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="31">
@@ -99,7 +99,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5cfd6199-084f-40a5-9ffc-e918b6d417b7" InformativeScreenshot="290a614d8d3607afadc39d70ed8ac0af" Selector="&lt;webctrl aaname='Iniciar sesión' tag='A' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5cfd6199-084f-40a5-9ffc-e918b6d417b7" InformativeScreenshot="aca5308c43e71eea5591b509fdd1c55a" Selector="&lt;html app='firefox.exe' title='Platzi: ‎Cursos Online Profesionales de Tecnología' /&gt;&lt;webctrl aaname='Iniciar sesión' tag='A' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
@@ -111,7 +111,7 @@
     </ui:Click>
     <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Escribir Usuario" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[varEmail]">
       <ui:TypeInto.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="772408b9-8714-4254-91f5-edfd427e6532" InformativeScreenshot="89799c46217b88b486a443377536a201" Selector="&lt;webctrl tag='INPUT' type='email' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="772408b9-8714-4254-91f5-edfd427e6532" InformativeScreenshot="4471ba2f84844ad249fbd5e27a3d3771" Selector="&lt;html app='firefox.exe' title='Log in | Platzi' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
@@ -123,7 +123,7 @@
     </ui:TypeInto>
     <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Escrbir Contraseña" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="[varPass]">
       <ui:TypeInto.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e30cea29-ebc2-4253-b397-2c977a0bae91" InformativeScreenshot="8851c7f2b03fa41f2f3abadcd28a4c7d" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e30cea29-ebc2-4253-b397-2c977a0bae91" InformativeScreenshot="6f37045c28b0202997cc49c735e7772b" Selector="&lt;html app='firefox.exe' title='Log in | Platzi' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
@@ -145,7 +145,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2b04745e-868b-418c-a070-2d80482998f3" InformativeScreenshot="398c1e7cbd657c799553222dfdb31cf2" Selector="&lt;webctrl aaname='Inicia sesión' tag='SPAN' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2b04745e-868b-418c-a070-2d80482998f3" InformativeScreenshot="ea6914ce6b2d7e548f176b0096976d80" Selector="&lt;html app='firefox.exe' title='Log in | Platzi' /&gt;&lt;webctrl tag='BUTTON' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
